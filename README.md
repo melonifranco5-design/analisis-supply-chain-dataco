@@ -17,7 +17,12 @@ Hallazgo: el 54,8% de los pedidos presentan demora en la entrega, con un promedi
 
 2. SQL — ¿Dónde está el problema?
 
-Consultas en PostgreSQL para localizar la causa de la demora (ver archivo completo).
+Consultas en PostgreSQL para localizar la causa de la demora:
+
+- [Consulta por región](SQL/Consulta%20Demora.SQL)
+- [Consulta por categoría de producto](SQL/Consulta%20Demora_Diferencia.SQL)
+- [Consulta % de demora por modo de envío](SQL/Consulta%20Porcentaje%20Tarde.SQL)
+- [Consulta final combinada](SQL/Consulta%20Final.SQL)
 
 Por región: entre 55% y 58% de demora en todas las regiones, sin excepción marcada → no es un problema geográfico.
 Por categoría de producto: entre 0,55 y 0,58 días de sobretiempo en todas las categorías de alto volumen → no es un problema del tipo de producto.
@@ -31,7 +36,7 @@ Hallazgo: la demora no depende de dónde se envía ni qué se envía, sino de qu
 
 3. Python (Pandas) — ¿Qué esconde el promedio?
 
-Cálculo de la demora por pedido individual y su variabilidad (ver notebook completo).
+Cálculo de la demora por pedido individual y su variabilidad ([ver notebook completo](SuppChain.ipynb)).
 
 <img width="517" height="346" alt="Pandas 3" src="https://github.com/user-attachments/assets/5b9a41bb-92a8-48b4-bc03-a6d6b91512b3" />
 
@@ -44,3 +49,7 @@ Hallazgo: First Class tiene desvío 0 — todos los pedidos demoran exactamente 
 Conclusión general
 
 La empresa no tiene un problema geográfico ni de producto, sino de gestión de promesas de envío: los modos más rápidos prometen tiempos que la operación no sostiene de forma consistente, y el modo que "cumple en promedio" (Standard Class) en realidad es el más impredecible pedido por pedido.
+
+Herramientas usadas 
+
+•Excel •Power BI •PostgreSQL •Python •Jupyter
