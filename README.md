@@ -8,7 +8,7 @@ DataCo Smart Supply Chain — pedidos, productos, envíos, entregas y datos fina
 
 1. Power BI — Vista general
 
-Dashboard con KPIs, comparación de tiempos reales vs. programados, pedidos por región, producto y estado de entrega.
+Dashboard con KPIs, comparación de tiempos reales vs. programados, pedidos por región, producto y estado de entrega ([ver archivo completo](Resumen%20Pedidos.pbix)).
 
 <img width="742" height="367" alt="Resumen Pedidos" src="https://github.com/user-attachments/assets/b867ab8e-5c66-4114-b916-2d7d0a7eae15" />
 
