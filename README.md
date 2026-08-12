@@ -44,7 +44,3 @@ Hallazgo: First Class tiene desvío 0 — todos los pedidos demoran exactamente 
 Conclusión general
 
 La empresa no tiene un problema geográfico ni de producto, sino de gestión de promesas de envío: los modos más rápidos prometen tiempos que la operación no sostiene de forma consistente, y el modo que "cumple en promedio" (Standard Class) en realidad es el más impredecible pedido por pedido.
-
-Herramientas usadas
-
-Excel · Power BI · PostgreSQL · Python (Pandas, Matplotlib) · Jupyter Notebook
