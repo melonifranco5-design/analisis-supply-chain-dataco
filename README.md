@@ -19,10 +19,10 @@ Hallazgo: el 54,8% de los pedidos presentan demora en la entrega, con un promedi
 
 Consultas en PostgreSQL para localizar la causa de la demora:
 
-- [Consulta por región](SQL/Consulta%20Demora.SQL)
-- [Consulta por categoría de producto](SQL/Consulta%20Demora_Diferencia.SQL)
-- [Consulta % de demora por modo de envío](SQL/Consulta%20Porcentaje%20Tarde.SQL)
-- [Consulta final combinada](SQL/Consulta%20Final.SQL)
+- [Consulta por región](sql/Consulta%20Demora.SQL)
+- [Consulta por categoría de producto](sql/Consulta%20Demora_Diferencia.SQL)
+- [Consulta % de demora por modo de envío](sql/Consulta%20Porcentaje%20Tarde.SQL)
+- [Consulta final combinada](sql/Consulta%20Final.SQL)
 
 Por región: entre 55% y 58% de demora en todas las regiones, sin excepción marcada → no es un problema geográfico.
 Por categoría de producto: entre 0,55 y 0,58 días de sobretiempo en todas las categorías de alto volumen → no es un problema del tipo de producto.
