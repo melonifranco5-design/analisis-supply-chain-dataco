@@ -32,7 +32,7 @@ Por modo de envío: acá sí aparece una diferencia real:
 <img width="683" height="152" alt="Resultado Final" src="https://github.com/user-attachments/assets/63377962-a1a2-45a2-9fcd-2778da0bd042" />
 
 
-Hallazgo: la demora no depende de dónde se envía ni qué se envía, sino de qué tan ajustado es el compromiso de entrega. Cuanto más rápido promete el modo de envío, más falla.
+Hallazgo: No se observa una diferencia significativa de demora entre regiones/categorías en este análisis, sino de qué tan ajustado es el compromiso de entrega. Cuanto más rápido promete el modo de envío, más falla.
 
 3. Python (Pandas) — ¿Qué esconde el promedio?
 
